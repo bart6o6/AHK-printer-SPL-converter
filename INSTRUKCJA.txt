@@ -1,0 +1,14 @@
+Do działania programu są potrzebne dwie rzeczy:
+	1. Plik "eksport_wydrukow_analiz.EXE"
+	2. Folder "to convert" a w nim pliki z rozszerzeniem .SPL. Pliki .SHD lub inne w folderze nie 	przeszkadzają.
+	3. Oba powyższe muszą znajdować się w jednej, jakiejkolwiek lokalizacji - razem w jednym 	folderze.
+	4. Komputer powinien być sprawnie działający, czyli wyłącz zbędne programy jak 	Comarch/Excel/przeglądarka. Komputer po weekendzie potrafi wyszukiwać 	aktualizacje i skanować w poszukiwaniu wirusów - może to powodować opóźnienia i błędy programu.
+
+Działanie:
+- do folderu "to convert" przekopiuj pliki .SPL
+- uruchom "eksport_wydrukow_analiz.EXE"
+- by rozpocząć pracę programu naciśnij Ctrl+r i nie naciskaj nic myszką/klawiaturą do momentu pojawienia się okna z komunikatem "sukces". Konwersja 20 plików zajmuje około 2:20min., więc mając ich np. 300 uzbrój się w ~35min. wolnego czasu
+- po przekonwertowaniu, pliki .SPL przeniesione zostaną do folderu converted/source - można je stamtąd usunąć lub np. przenieść do "to convert" w celu ponownej konwersji.
+- wynikowe pliki .pdf znajdują się w "converted/pdf"
+- wyniki zebrane w excelu znajdują się w pliku "zestawienie_wydrukow.csv"
+- 
