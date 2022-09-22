@@ -52,8 +52,8 @@ Loop, Parse, FileList, `n,`r
 	else
 	{
 		FileGetTime, DateFileCreated, %A_LoopField%, M
-		;FileAppend, %A_LoopField% `n, C:\Users\bartek.gola\Desktop\Nowy folder 22222\list.txt
-		;FileAppend, %name_no_ext% `n, C:\Users\bartek.gola\Desktop\Nowy folder 22222\list.txt
+		
+
 		SplitPath, A_LoopField, name, dir, ext, name_no_ext
 		
 		Run, cmd.exe,,
